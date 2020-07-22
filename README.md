@@ -1,3 +1,5 @@
+I've filed a Feedback with Apple for this issue: FB8101550
+
 # Bug Description and Steps to Reproduce
 
 Create a very simple app that uses a ScrollView() as the main component in a View’s body. Have that ScrollView()’s items come from a ForEach() block that iterates over an array, either @State or a @Published array in an @ObservedObject. Update that array in .onAppear() (or via anything else, e.g. network request that updates a @Published property).
